@@ -1,0 +1,222 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: tmp\n"
+"Project-Id-Version: Wp ai comments\n"
+"Language: ru\n"
+
+#: tpl/options.php:8
+msgid "Settings"
+msgstr "Настройки"
+
+#: tpl/options.php:16
+msgid "Remaining characters:"
+msgstr "Осталось символов:"
+
+#: tpl/options.php:25
+msgid "Need help?"
+msgstr "Необходима помощь?"
+
+#: tpl/options.php:26
+msgid "Write to Telegram"
+msgstr "Напишите в Telegram"
+
+#: tpl/options.php:36
+msgid "Enter the API key. To get a key with free symbols, write to us via "
+msgstr "Введите API ключ. Чтобы получить ключ c бесплатными символами, напишите нам через "
+
+#: tpl/options.php:36
+msgid "feedback form"
+msgstr "форму обратной связи"
+
+#: tpl/options.php:36
+msgid "or in "
+msgstr "или в "
+
+#: tpl/options.php:36
+msgid "Telegram"
+msgstr "Telegram"
+
+#: tpl/options.php:40 tpl/options.php:137
+msgid "Save"
+msgstr "Сохранить"
+
+#: tpl/options.php:47
+msgid "API Key"
+msgstr "API Key"
+
+#: tpl/options.php:54
+msgid "Plugin is active"
+msgstr "Плагин активен"
+
+#: tpl/options.php:56
+msgid "Plugin is not active"
+msgstr "Плагин не активен"
+
+#: tpl/options.php:63
+msgid "There is a problem with your site's availability for generating comments. You need to remove the restrictions, then deactivate and reactivate the plugin."
+msgstr "Проблема с доступностью вашего сайта для генерации комментариев. Необходимо убрать ограничения, после этого деактивировать и снова активировать плагин."
+
+#: tpl/options.php:64
+msgid "Number of comments per day"
+msgstr "Количество комментариев в день"
+
+#: tpl/options.php:69
+msgid "Buy symbols"
+msgstr "Купить символы"
+
+#: tpl/options.php:76
+msgid "50 $"
+msgstr "5000 руб"
+
+#: tpl/options.php:77
+msgid "Buy"
+msgstr "Купить"
+
+#: tpl/options.php:69
+msgid "Text source for generation"
+msgstr "Источник текста для генерации"
+
+#: tpl/options.php:71
+msgid "H1"
+msgstr "H1"
+
+#: tpl/options.php:72
+msgid "Title (Yoast SEO)"
+msgstr "Title (Yoast SEO)"
+
+#: tpl/options.php:73
+msgid "Title (All In Seo Pack)"
+msgstr "Title (All In Seo Pack)"
+
+#: tpl/options.php:80
+msgid "Send for moderation?"
+msgstr "Отправлять на модерацию?"
+
+#: tpl/options.php:82
+msgid "Yes"
+msgstr "Да"
+
+#: tpl/options.php:83
+msgid "No"
+msgstr "Нет"
+
+#: tpl/options.php:89
+msgid "Request template (Promts)"
+msgstr "Шаблон запросов (Promts)"
+
+#: tpl/options.php:91
+msgid "Use random pattern"
+msgstr "Использовать шаблон в случайном порядке"
+
+#: tpl/options.php:96
+msgid "Write a comment on the article in a positive tone on the topic: "
+msgstr "Напиши комментарий к статье в позитивном тоне по теме: "
+
+#: tpl/options.php:108
+msgid "Add"
+msgstr "Добавить"
+
+#: tpl/options.php:112
+msgid "Post type"
+msgstr "Тип постов"
+
+#: tpl/options.php:116
+msgid "The quality of the comment and how it will turn out depends on the template. Using several different templates, you can get a variety of comments that are different from each other. In the template, you can change the length of the comment, its tone, or adapt it to the theme of the site.<br />By default, the page title is inserted at the end of the template. To insert h1 or title in any arbitrary place, use the variables {h1} or {title}. Then the title will be inserted in the place where the variable is."
+msgstr "От шаблона зависит качество комментария и то каким он получится. Используя несколько разных шаблонов, можно получить разнообразные комментарии непохожие друг на друга. В шаблоне можно изменить длинну комментария, его тон или адаптировать под тематику сайта.<br />По умолчанию заголовок страницы подставляется в конце шаблона. Для того чтобы подставить h1 или title в любом произвольном месте, используйте переменные {h1} или {title}. Тогда заголовок подставится на то место где стоит переменная."
+
+#: tpl/options.php:113
+msgid "Select the types of pages on which to post comments or reviews"
+msgstr "Выберите типы страниц на которых публиковать комментарии или отзывы"
+
+#: tpl/options.php:123
+msgid "Commentators"
+msgstr "Комментаторы"
+
+#: tpl/options.php:124
+msgid "Each name on a new line"
+msgstr "Каждое имя с новой строки"
+
+#: tpl/options.php:125
+msgid "Set defaults promts"
+msgstr "Восстановить промпты по умолчанию"
+
+#: tpl/options.php:130
+msgid "List of links to post"
+msgstr "Список ссылок для публикации"
+
+#: tpl/options.php:131
+msgid "Each URL on a new line. If you leave the field blank, comments and reviews will be published on all selected page types"
+msgstr "Каждый URL с новой строки. Если оставить поле пустым, комментарии и отзывы будут публиковаться на всех выбранных типах страниц"
+
+#: tpl/options.php:140
+msgid "Reply to comments by randomly selecting one of the previously published ones on the page"
+msgstr "Отвечать на комментарии случайно выбирая один из ранее опубликованных на странице"
+
+#: tpl/options.php:146
+msgid "Prompt to reply to comments:"
+msgstr "Промт на ответ комментария"
+
+#: tpl/options.php:151
+msgid "Write a response to the comment in simple, conversational language. Use jargon, but do not use swear words. The answer must be reasoned, think of a case from your life on the topic of the comment. The volume of the response to the comment is no more than 50 words. The comment to which you need to write a response: {comment}"
+msgstr "Напиши ответ на комментарий простым разговорным языком. Используй жаргоны, но не используй мат. Ответ должен быть аргументированный, придумай какой у тебя был случай из жизни по теме комментария. Объем ответа на комментарий не более 50 слов. Комментарий на который нужно написать ответ: {comment}"
+
+#: tpl/options.php:153
+msgid "Limit on the number of replies to comments per knock"
+msgstr "Лимит количества ответов на комментарии в сутки"
+
+#: tpl/options.php:182
+msgid "Each URL on a new line. If you leave the field blank, comments and reviews will be published on all selected page types."
+msgstr "Каждый URL с новой строки. Если оставить поле пустым, комментарии и отзывы будут публиковаться на всех выбранных типах страниц."
+
+#: tpl/stat.php:2
+msgid "Statistic"
+msgstr "Статистика"
+
+#: tpl/stat.php:3
+msgid "Day"
+msgstr "День"
+
+#: tpl/stat.php:4
+msgid "Week"
+msgstr "Неделя"
+
+#: tpl/stat.php:5
+msgid "Month"
+msgstr "Месяц"
+
+#: tpl/stat.php:11
+msgid "Get raport"
+msgstr "Получить отчет"
+
+#: tpl/stat.php:21
+msgid "Sign in"
+msgstr "Вход"
+
+#: tpl/stat.php:22
+msgid "Sign up"
+msgstr "Регистрация"
+
+#: tpl/stat.php:27
+msgid "If you have registered and already entered the key, you do not need to log in again."
+msgstr "Если вы зарегистрировались и уже ввели ключ, то дополнительно авторизовываться не нужно."
+
+#: tpl/stat.php:29
+msgid "Mail"
+msgstr "Почта"
+
+#: tpl/stat.php:34
+msgid "Your password"
+msgstr "Ваш пароль"
+
+#: tpl/stat.php:34
+msgid "Repeat password"
+msgstr "Повторите пароль"
+

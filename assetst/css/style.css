@@ -1,0 +1,938 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+#wpai-comments-settingstextarea[name="urls"],
+textarea[name="authors"]{
+	width: 90%;
+	height: 268px;
+	outline: none;
+	background: none;
+	resize: none;
+	border-radius: 3px;
+	border-width: solid 1px rgb( 30, 36, 50 );
+}
+
+#wpai-comments-settings input[type="checkbox"]{
+	width: 25px;
+	height: 25px;
+	border-radius: 3px;
+	outline: none;
+	border-width: solid 1px rgb( 30, 36, 50 );
+}
+
+#wpai-comments-settings input[type="checkbox"]:checked{
+	background: url(images/check.png) no-repeat -1px 4px;
+	background-position: center center;
+	background-size: 55%;
+}
+
+#wpai-comments-settings input[type="checkbox"]:checked::before{
+	content: "";
+}
+
+
+#wpai-comments-settings input[name="rand_tpl"]{
+	margin: 10px 2px;
+	margin-right: 10px;
+}
+
+#wpai-comments-settings textarea[name="urls"], textarea[name="authors"] {
+    width: 90%;
+    height: 268px;
+    outline: none;
+    background: none;
+    resize: none;
+    border-radius: 3px;
+    border: solid 1px rgb(0, 0, 0) !important; 
+}
+
+#wpai-comments-settings input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+    box-shadow: 0 0 0 transparent;
+    border-radius: 5px;
+    background-color: #f0f0f1;
+    color: #000 !important;
+	font-size: 1em;
+}
+
+.f-left{
+	float: left;
+}
+
+.f-right {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+
+.clear{
+	clear: both;
+}
+
+#wpai-comments-settings{
+	min-width: 696px;
+	padding: 0px 64px 0px 23px;
+	color: #000;
+	max-width: 80%;
+	font-family: "Roboto";
+}
+
+.fix-buy-form {
+  display: flex;
+  flex-direction: row;
+	
+}
+
+.wpai-comments-header{
+	width: 100%;
+	margin: 40px auto;
+	display: flex;
+    justify-content: space-between;
+	background: #1e2432 url(images/bg.png) 2% 50% no-repeat;
+	padding: 27px;
+}
+
+.wpai-comments-option{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-right: 20px;
+	
+}
+.wpai-comments-form{
+	margin-top: 0px;
+}
+
+.flexbox {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	width: 100%;
+	padding: 0px 20px;
+}
+
+.f-right-flex {
+	order: 1;
+	min-width: 315px;
+}
+
+.wpai-comments-form {
+	display: flex;
+	align-items: flex-start;
+}
+
+#comment-label{
+	width: 94px;
+	height: 80px;
+	margin-right: 28px;
+	background: url(images/comment.png) no-repeat;
+}
+
+#wpai-logo{
+	background: url(images/logo.png) left center no-repeat;
+	width: 307px;
+	height: 92px;
+	margin: 0px;
+}
+
+#wpai-comments-doc{
+	width: 45px;
+	height: 57px;
+	margin-top: 25px;
+	background: url(images/doc.png) no-repeat;
+	background-size: contain;
+}
+
+.wpai-comments-telegram{
+	min-width: 250px;
+	height: 120px;
+	border-radius: 3px;
+	border: solid 1px rgb( 66, 179, 213 );
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.wpai-comments-logo-block{
+	width: 65%;
+	padding-top: 15px;
+}
+
+.wpai-comments-symbols{
+	display: flex;
+	flex-direction: column;
+	min-width: 165px;
+	justify-content: center;
+}
+
+#wpai-comments-symbols-text{
+	font-size: 16px;
+	font-family: "Roboto";
+	display: flex;
+	text-align: right;
+}
+
+#aicomments-symbols{
+	top: 15px;
+	font-size: 16px;
+	text-align: right;
+	right: 10px;
+	position: relative;
+	font-family: "Roboto";
+	color: rgb( 66, 179, 213 );
+}
+
+#wpai-comments-title{
+	font-size: 12px;
+	font-family: "Roboto";
+}
+
+#telegram{
+	font-size: 12px;
+	margin-top: 10px;
+	cursor: pointer;
+	font-family: "Roboto";
+	color: rgb( 66, 179, 213 );
+	text-decoration: underline;
+}
+
+.wpai-comments-help-block{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    color: #fff;
+}
+
+.wpai-comments-form{
+	margin-top: 0px;
+}
+
+.api-key-header{
+	height: 63px;
+	line-height: 63px;
+	background-color: rgb( 30, 36, 50 );
+	font-size: 21px;
+	font-family: "Roboto";
+	color: rgb( 255, 255, 255 );
+}
+
+.api-key-header span{
+	left: 28px;
+	position: relative;
+}
+
+.api-key-body{
+	background-color: rgb( 52, 57, 69 );
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.api-key-body-2{
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+}
+
+#tpl-items .tpl-item i:after,
+#api-key-active::before,
+#api-key-deactive::before{
+	content: "";
+	width: 27px;
+	height: 20px;
+	margin-right: 0px;
+	display: inline-block;
+}
+
+#api-key-active::before{
+	background: url(images/active.png) no-repeat;
+	background-size: 55%;
+	vertical-align: top;
+}
+
+#tpl-items .tpl-item i:after,
+#api-key-deactive::before{
+	background: url(images/deactive.png) no-repeat;
+	background-size: 55%;
+	vertical-align: top;
+}
+
+#tpl-items .tpl-item i{
+	top: 15px;
+	cursor: pointer;
+	padding: 10px 5px;
+	position: absolute;
+	max-width: 75%;
+}
+
+#api-key-active,
+#api-key-deactive{
+	top: 0px;
+	left: 0px;
+	display: block;
+	font-size: 12px;
+	margin: 15px 0px;
+	position: relative;
+	font-family: "Roboto";
+	vertical-align: top;
+}
+
+#api-key-active{
+	color: rgb( 140, 192, 76 );
+}
+
+#api-key-deactive{
+	color: rgb( 227, 6, 19 );
+}
+
+.wpai-comments-row .input-block:first-child{
+	margin-right: 0px;
+}
+
+.wpai-comments-row{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.first_block  {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	height: 100%;
+	flex-direction: row;
+	align-content: space-around;
+}
+
+.first_block div {
+	display: flex;
+	flex-direction: column;
+	width: 49%; 
+	margin-bottom: 25px;
+}
+
+.first_block input {
+	width: 100%;
+}
+
+.first_block input, .input-block select {
+    width: 100%;
+    height: 32px;
+}
+
+.wp-core-ui select {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.wpai-comments-row span.info-label-text{
+	display: block;
+	font-size: 14px;
+	margin-bottom: 20px;
+	font-family: "Roboto";
+	text-align: justifyLeft;
+	color: rgb( 153, 153, 153 );
+}
+
+.input-block input,
+.input-block select{
+	width: ;
+	line-height: 30px;
+	outline: none;
+	background: none;
+	border-radius: 3px;
+	padding: 0px 25px 0px 15px;
+	border: solid 1px rgb( 30, 36, 50 );
+}
+
+.flexstart {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.input-block select{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: transparent;
+	background: url("images/arrow.png") no-repeat 97% 11px;
+}
+
+.wpai-comments-row #addTpl{
+	width: 40%;
+	font-size: 16px;
+}
+
+.promt-fix {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+.promt-fix2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+.tpl-item{
+	margin: 15px 0;
+	position: relative;
+}
+
+.tpl-item textarea{
+  width: 95%;
+  height: 68px;
+  font-size: 12px;
+  font-family: "Roboto";
+  color: #000;
+  resize: none;
+  outline: none;
+  background: none;
+  outline: none;
+  border-radius: 5px;
+  border: solid 1px rgb( 0, 0, 0 );
+  padding: 10px;
+}
+
+.tpl-item input{
+	width: 100%;
+}
+
+.wpai-comments-option .wpai-comments-row.block1{
+	display: block;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 25px;
+}
+
+.wpai-comments-option .wpai-comments-row.block2{
+	display: block;
+	border-bottom: 1px solid #ccc;
+	padding: 25px 0px;
+}
+ 
+.block2 textarea, input{
+	margin-top: 0px;
+}
+/* signInUp */
+
+#area-chat {
+	width: 45%;
+	max-width: 550px;
+}
+
+
+
+#wpai-sign{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	padding: 20px;
+	margin-top: -20px;
+	border-radius: 0px 0px 10px 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+#wpai-sign input{
+	width: 100%;
+	height: 34px;
+	font-size: 16px;
+	font-family: "Roboto";
+	color: rgb( 30, 36, 50 );
+}
+
+#wpai-sign button{
+	width: 100%;
+	height: 34px;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 3px;
+	font-family: "Roboto";
+	color: rgb( 255, 255, 255 );
+	background-color: rgb( 66, 179, 213 );
+	margin-top: 17px;
+}
+
+.wpai-tabs{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin: 60px 0px 20px 0px;
+}
+
+.wpai-tab{
+	width: 50%;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+}
+
+.fixbotton #addTpl,
+button[name="save"]{
+	font-size: 16px;
+}
+
+.fixbotton button[name="save"]{
+	font-size: 17pt;
+}
+
+.wpai-tab.active{
+	background: #fff;
+}
+
+.wpai-tab:first-child{
+	border-radius: 10px 0px 0px 0px;
+}
+
+.wpai-tab:last-child{
+
+}
+
+#wpai-sign[data-action="signIn"] .password2{
+	display: none;
+}
+
+#wpai-sign[data-action="signIn"] button:before{
+	content: "Вход";
+}
+
+#wpai-sign[data-action="signUp"] button:before{
+	content: "Регистрация";
+}
+
+#wpai-errors-messages{
+	color: #f00;
+	height: auto;
+	text-align: center;
+}
+
+/* signInUp end */
+
+/* none-license-block  */
+
+
+.license {
+	width: 100%;
+	display: flex;
+}
+
+/* signInUp */
+
+#wpai-sign{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	width: 408px;
+	padding: 33px;
+	margin-top: -20px;
+	border-radius: 0px 0px 10px 10px;
+}
+
+#wpai-sign input{
+	width: 300px;
+	min-width: 400px;
+	height: 55px;
+	font-size: 18px;
+	font-family: "Roboto";
+	color: rgb( 30, 36, 50 );
+}
+
+#wpai-sign button{
+	width: 402px;
+	height: 57px;
+	border: none;
+	cursor: pointer;
+	font-size: 30px;
+	border-radius: 3px;
+	font-family: "Roboto";
+	color: rgb( 255, 255, 255 );
+	background-color: rgb( 66, 179, 213 );
+}
+
+.wpai-tabs{
+	width: 475px;
+	margin: 60px 0px 20px 0px;
+}
+
+.wpai-tab{
+	width: 195px;
+	padding: 20px;
+	font-size: 18px;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+}
+
+.wpai-tab.active{
+	background: #fff;
+}
+
+.wpai-tab:first-child{
+	border-radius: 10px 0px 0px 0px;
+}
+
+.wpai-tab:last-child{
+	border-radius: 0px 10px 0px 0px;
+}
+
+#wpai-sign[data-action="signIn"] .password2{
+	display: none;
+}
+
+#wpai-sign[data-action="signIn"] button:before{
+	content: "Вход";
+}
+
+#wpai-sign[data-action="signUp"] button:before{
+	content: "Регистрация";
+}
+
+#wpai-errors-messages{
+	color: #f00;
+	height: 35px;
+	text-align: center;
+}
+
+#wpai-sign .wpai-comments-row {
+	margin-top: 20px;
+}
+
+/* stats */
+
+#aicomments-stat button[name="step"]{
+	line-height: 40px;
+	margin-left: -10px;
+	margin-right: 10px;
+	border: none;
+	cursor: pointer;
+	font-size: 14pt;solid 1px rgb( 30, 36, 50 );
+	border-radius: 5px;
+	font-family: "Roboto";
+	transform: scale(0.8);
+	color: rgb( 255, 255, 255 );
+	background-color: rgb( 66, 179, 213 );
+	width: 100px;
+}
+
+#wpai-comments-settings .title{	
+	font-size: 14pt;
+	font-family: "Roboto";
+	margin: 30px 0px 15px 0px;
+}
+
+#wpai-comments-settings .title2 {	
+	font-size: 14pt;
+	font-family: "Roboto";
+	margin: 0px 0px 15px 0px;
+}
+
+#wpai-comments-settings .title3 {	
+	font-size: 14pt;
+	font-family: "Roboto";
+	margin: 0px 0px 15px 0px;
+}
+
+/* stats end */
+
+#wpai-set-default-promts{
+	height: 36px;
+	border: none;
+	cursor: pointer;
+	font-size: 14px;
+	padding: 0 50px;
+	background: none;
+	border-radius: 4px;
+	font-family: "Roboto";
+	color: rgb( 0, 124, 186 );
+	border: solid 1px rgb( 0, 124, 186 );
+	margin: 8px 0px;
+}
+
+.aicomments-buy-form{
+	font-size: 14pt;
+	text-align: center;
+	border: 1px solid #42b3d5;
+	padding: 20px 16px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.aicomments-buy-form button{
+	background: #42b3d5;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	font-size: 14px;
+}
+
+.aicomments-buy-form input{
+	background: #fff !important;
+	margin-right: 15px;
+}
+
+.aicomments-buy-form .title{
+	font-size: 20pt;
+	margin-bottom: 22px;
+}
+
+.aicomments-price-label{
+	width: 100%;
+	font-size: 12px;
+}
+
+.aicomments-buy-form #out_summ{
+	width: 60%;
+	height: 34px;
+	font-size: 14px;
+}
+
+.aicomments-buy-form #aicomments-buy{
+	height: 34px;
+	width: 165px;
+	margin-top: 20px;
+}
+
+.wpai-fs-14pt{
+	font-size: 12pt;
+	margin-right: 10px;
+}
+
+.aicomments-savekey #aicomments-savekey {
+    height: 34px;
+    padding: 0px 20px;
+    width: 100%;
+    margin-top: 5px;
+}
+.aicomments-savekey button {
+    background: #42b3d5;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+
+.wpai-comments-info {
+  	display: flex;
+	flex-direction: column;
+	color: #fff;
+	justify-content: center;
+	margin-right: 20px;
+	text-align: right;
+}
+
+#wpai-text{
+	font-size: 30px;
+	margin-top: 30px;
+	font-family: "Roboto";
+	color: rgb( 255, 255, 255 );
+	display: hidden !important;
+}
+
+.fixbotton {
+    justify-content: flex-start;
+}
+
+#aicomments-stat {
+	margin-left: 20px;
+} 
+
+.wpai-comments-rowrow  {
+	display: flex;
+	flex-direction: row;
+} 
+
+#out_summ{
+	width: 250px;
+	height: 30px;
+	outline: none;
+	margin: 20px 20px 20px 0px;
+}
+
+.stat-fix  {
+	margin-top: 20px;
+}
+
+.stat-fix input {
+    box-shadow: 0 0 0 transparent;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000 !important;
+    font-size: 12pt;
+	line-height: 32px;
+	padding: 7px 10px;
+}
+
+
+.stat-fix button  {
+    border-radius: 5px;
+	border: none;
+    background-color: #42b3d5;
+    color: #FFF !important;
+    font-size: 12pt;
+	line-height: 40px;
+	padding: 0px 10px;
+}
+
+@media screen and (max-width:1280px){
+	
+.wpai-comments-row span.info-label-text {
+    font-size: 13px;
+    text-align: justify;
+}
+
+#wpai-comments-settings .title {
+    font-size: 12pt;
+}
+
+.first_block input, .input-block select {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+	font-size: 12pt;
+}
+
+.input-block select {
+    background: url(images/arrow.png) no-repeat 92% 12px;
+}
+
+.wpai-comments-option {
+    width: 100%;
+}
+
+.wpai-comments-info {
+    right: -65px; 
+    padding-right: 0px;
+}
+
+.api-key-header {
+    font-size: 20px;
+}
+
+.api-key-body input[name="token"] {
+    line-height: 35px;
+    font-size: 10px;
+}
+
+
+}
+
+@media screen and (max-width:1000px){
+	
+.first_block {
+    flex-direction: column;
+}
+
+.first_block div {
+    width: 100%;
+}
+
+#wpai-comments-symbols-text {
+    max-width: 90%;
+}
+
+}
+
+
+/* none-license-block  */
+
+
+.license {
+	width: 100%;
+	display: flex;
+}
+
+.none-license-block {
+	width: 100%;
+	display: flex;
+	font-size: 16px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.none-license-block-row {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.none-license-block-row-2 {
+	width: calc(100% - 20px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 10px;
+}
+
+.fix-none-license-block-row {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    width: 90%;
+}
+
+#wpai-comments-settings label.title{
+	display: block;
+	font-size: 16px;
+	margin-bottom: 25px;
+	font-family: "Roboto";
+	color: rgb( 30, 36, 50 );
+	padding-right: 5px;
+}
+
+.license input[name="token"]{
+	width: 100%;
+	height: 34px;
+	font-size: 16px;
+	padding-left: 60px;
+	font-family: "Roboto";
+	color: rgb( 30, 36, 50 );
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.api-key-body input[name="token"]{
+	display: flex;
+	width: 100%;
+	line-height: 32px;
+	margin: 15px 0px;
+	text-align: center;
+	outline: none;
+	font-size: 1em;
+	background: none;
+	text-align: center;
+	position: relative;
+	border-radius: 5px;
+	font-family: "Roboto";
+	color: rgb( 66, 179, 213 );
+	border: solid 1px rgb( 66, 179, 213 );
+}
+
+#addTpl{
+	height: 40px;
+}
+
+#addTpl,
+button[name="save"]{
+	width: 300px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	font-family: "Roboto";
+	margin: 10px 0px 10px 0px;
+	color: rgb( 255, 255, 255 );
+	background-color: rgb( 66, 179, 213 );
+}
+
+.wpai-comments-host-disabled{
+	color: #f00;
+	text-align: center;
+}
